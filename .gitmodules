@@ -1,0 +1,18 @@
+[submodule "roles/router"]
+	path = roles/router
+	url = https://github.com/home-router/router.git
+[submodule "roles/dnsmasq"]
+	path = roles/dnsmasq
+	url = https://github.com/home-router/dnsmasq.git
+[submodule "roles/pppoe"]
+	path = roles/pppoe
+	url = https://github.com/home-router/pppoe.git
+[submodule "roles/nftables"]
+	path = roles/nftables
+	url = https://github.com/home-router/nftables.git
+[submodule "roles/wireguard"]
+	path = roles/wireguard
+	url = https://github.com/home-router/wireguard.git
+[submodule "roles/ddclient"]
+	path = roles/ddclient
+	url = https://github.com/home-router/ddclient.git
