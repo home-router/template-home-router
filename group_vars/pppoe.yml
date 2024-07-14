@@ -1,0 +1,10 @@
+# This is copied from roles/pppoe/default/main.yml as an example to configure
+# each role.
+pppoe_update_resolvconf: true
+
+pppoe_provider:
+  provider1:
+    wan_interface: wan0
+    pppoe_interface: pppoe0
+    user: username
+    password: a_password
